@@ -1,17 +1,17 @@
-# eslint-config-aoeu
+# @aoeu/eslint-config
 
 This package provides an extensible [shared configuration](https://eslint.org/docs/developer-guide/shareable-configs) for [ESLint](https://eslint.org/) that supports The Art of Education University's JavaScript coding standards.
 
 ## Installation
 
 ```
-yarn add -D eslint-config-aoeu
+yarn add -D @aoeu/eslint-config
 ```
 
 Or, with npm:
 
 ```
-npm install -D eslint-config-aoeu
+npm install -D @aoeu/eslint-config
 ```
 
 ## Usage
@@ -22,9 +22,9 @@ Create [an ESLint configuration file](https://eslint.org/docs/user-guide/configu
 // .eslintrc.js
 module.exports = {
   extends: [
-    "aoeu",
-    "aoeu/react",
-    "aoeu/testing"
+    "@aoeu/eslint-config",
+    "@aoeu/eslint-config/react",
+    "@aoeu/eslint-config/testing"
   ]
 }
 ```
