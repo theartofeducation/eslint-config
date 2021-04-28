@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    "complexity": ["error", { max: 10 }],
     "max-len": ["warn", { "code": 100 }],
     "semi": ["error", "never"],
     "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
