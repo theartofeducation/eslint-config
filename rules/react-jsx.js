@@ -1,6 +1,10 @@
 module.exports = {
   rules: {
     "react/jsx-closing-bracket-location": ["error", "after-props"],
+    "react/self-closing-comp": ["error", {
+      "component": true,
+      "html": true
+    }],
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": [

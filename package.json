@@ -1,6 +1,6 @@
 {
   "name": "@aoeu/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Custom ESLint configuration for The Art of Education University",
   "main": "index.js",
   "repository": "git@github.com:theartofeducation/eslint-config-aoeu.git",
