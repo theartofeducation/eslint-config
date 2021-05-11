@@ -1,13 +1,13 @@
 {
   "name": "@aoeu/eslint-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Custom ESLint configuration for The Art of Education University",
   "main": "index.js",
   "repository": "git@github.com:theartofeducation/eslint-config-aoeu.git",
   "author": "The Art of Education University",
   "license": "MIT",
   "private": false,
-  "devDependencies": {
+  "dependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@babel/eslint-plugin": "^7.13.16",
     "@commitlint/cli": "^12.1.1",
