@@ -5,13 +5,13 @@ This package provides an extensible [shared configuration](https://eslint.org/do
 ## Installation
 
 ```
-yarn add -D @aoeu/eslint-config
+yarn add -D eslint @aoeu/eslint-config @babel/eslint-plugin eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-mdx eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-testcafe
 ```
 
 Or, with npm:
 
 ```
-npm install -D @aoeu/eslint-config
+npm install -D eslint @aoeu/eslint-config @babel/eslint-plugin eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-mdx eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-testcafe
 ```
 
 ## Usage
