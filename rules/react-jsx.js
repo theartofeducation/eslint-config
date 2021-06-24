@@ -5,6 +5,10 @@ module.exports = {
       "component": true,
       "html": true
     }],
+    "react/jsx-max-props-per-line": ["error", {
+      "maximum": 2,
+      "when": "always"
+    }],
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": [
