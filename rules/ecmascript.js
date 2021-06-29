@@ -20,6 +20,14 @@ module.exports = {
     "global-require": "warn",
     "import/no-dynamic-require": "warn",
     "import/no-extraneous-dependencies": "off",
+    "import/order": ["error", {
+      "groups": ["builtin", "external", "internal", "parent", "sibling", "object", "type", "unknown"],
+      "alphabetize": {
+        "order": "asc",
+        "caseInsensitive": true
+      },
+      "newlines-between": "never"
+    }],
     "no-console": "off",
     "no-multi-assign": "off",
     "no-multiple-empty-lines": ["error", { max: 1, maxEOF: 0 }],
