@@ -22,6 +22,29 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "import/order": ["error", {
       "groups": ["builtin", "external", "internal", "parent", "sibling", "object", "type", "unknown"],
+      "pathGroups": [
+        {
+          "pattern": "@/**",
+          "group": "internal"
+        },
+        {
+          "pattern": "@mui/**",
+          "group": "external"
+        },
+        {
+          "pattern": "@mui-icons/**",
+          "group": "external"
+        },
+        {
+          "pattern": "@mui-lab/**",
+          "group": "external"
+        },
+        {
+          "pattern": "@mui-picker/**",
+          "group": "external"
+        }
+      ],
+      "pathGroupsExcludedImportTypes": ["react"],
       "alphabetize": {
         "order": "asc",
         "caseInsensitive": true
