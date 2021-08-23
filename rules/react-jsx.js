@@ -6,8 +6,8 @@ module.exports = {
       "html": true
     }],
     "react/jsx-max-props-per-line": ["error", {
-      "maximum": 2,
-      "when": "always"
+      "maximum": 3,
+      "when": "multiline"
     }],
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
